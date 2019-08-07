@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BicepsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/Biceps_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="덤벨컬"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonimg"
+            />
+
+        <Button
+            android:id="@+id/Biceps_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="바벨컬"
+            android:background="@drawable/buttonimg"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/Biceps_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="헤머컬"
+            android:background="@drawable/buttonimg"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/Biceps_btn4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="드래그 컬"
+            android:background="@drawable/buttonimg"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/Biceps_btn5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="컨센트레이션 컬"
+            android:background="@drawable/buttonimg"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/Biceps_btn6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="프리쳐 컬"
+            android:background="@drawable/buttonimg"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

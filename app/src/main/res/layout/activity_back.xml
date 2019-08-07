@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BackActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Back_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="턱걸이"
+                android:background="@drawable/buttonimg"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:id="@+id/Back_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="루마니안 데드리프트"
+                android:background="@drawable/buttonimg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/Back_btn3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="스모 데드리프트"
+                android:background="@drawable/buttonimg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/Back_btn4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="컨벤셔널 데드리프트"
+                android:background="@drawable/buttonimg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/Back_btn5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="렛풀다운"
+                android:background="@drawable/buttonimg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/Back_btn6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="시티드 로우"
+                android:background="@drawable/buttonimg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/Back_btn7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="바벨 로우"
+                android:background="@drawable/buttonimg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

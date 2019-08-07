@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemoActivity"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/back_button"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ff0000"
+            android:text="저장"
+            android:textSize="20dp"
+            android:textColor="#6d4c41"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="몸무게"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/db_weight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="오늘의 몸무게를 입력해 주세요"
+            android:textSize="20dp"
+            android:layout_weight="5"
+            android:inputType="numberDecimal"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Kg"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="유산소"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/db_diet_hour"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint=""
+            android:textSize="20dp"
+            android:layout_weight="2"
+            android:inputType="number"
+            android:nextFocusDown="@id/db_diet_minute"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="시간"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:id="@+id/db_diet_minute"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint=""
+            android:textSize="20dp"
+            android:layout_weight="2"
+            android:inputType="number"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="분"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="오늘 한 운동 기록"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/edittext_teduree"
+            android:layout_weight="8"
+            >
+
+
+            <EditText
+                android:id="@+id/db_health"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="@null"
+                android:gravity="start"
+                android:hint="ex) 벤치프레스 5set 60kg \n 데드리프트 5set 100Kg"
+                >
+
+            </EditText>
+        </ScrollView>
+
+</LinearLayout>

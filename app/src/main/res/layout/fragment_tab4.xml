@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab1Fragment"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="키(cm)를 입력해 주세요"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="몸무게(kg)를 입력해 주세요"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="계산"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonimg"
+        />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bmi1"
+        />
+    s
+    <ProgressBar
+        android:id="@+id/pro"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:progress="0"
+        android:min="14"
+        android:max="40"
+        />
+    <TextView
+        android:id="@+id/TextValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</LinearLayout>

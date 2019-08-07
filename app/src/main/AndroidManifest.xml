@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.simple.simplehealth">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/intro2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name="com.simple.simplehealth.Timer_Service"
+            android:enabled="true"
+            android:exported="true"></service>
+        <activity android:name="com.simple.simplehealth.activity.TricepsActivity"></activity>
+        <activity android:name="com.simple.simplehealth.activity.BicepsActivity" />
+        <activity android:name="com.simple.simplehealth.activity.AbsActivity" />
+        <activity android:name="com.simple.simplehealth.activity.ShoulderActivity" />
+        <activity android:name="com.simple.simplehealth.activity.LegActivity" />
+        <activity android:name="com.simple.simplehealth.activity.BackActivity" />
+        <activity android:name="com.simple.simplehealth.activity.ChestActivity" />
+        <activity android:name="com.simple.simplehealth.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.simple.simplehealth.MainActivity" android:windowSoftInputMode="adjustPan">
+
+        </activity>
+        <activity android:name="com.simple.simplehealth.MemoActivity" android:windowSoftInputMode="adjustPan"></activity>
+    </application>
+
+</manifest>

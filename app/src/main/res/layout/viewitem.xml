@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/viewitem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ViewText"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#6d6d6d" />
+
+    <TextView
+        android:id="@+id/TextTitle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>
